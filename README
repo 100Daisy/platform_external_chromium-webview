@@ -46,7 +46,7 @@ cp chrome/android/java/res_chromium/mipmap-xxxhdpi/app_icon.png android_webview/
 
 ------
 
-Extra patches:
+Extra patches - (Removed this, it is not useful at the moment):
 patches/chromium-theme-color.patch: Provides a callback when a theme color is set by the page
 
 ------
