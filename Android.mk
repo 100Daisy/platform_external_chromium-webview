@@ -33,8 +33,4 @@ LOCAL_MODULE_TARGET_ARCH := arm arm64 x86
 my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
 LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/webview.apk
 
-LOCAL_PREBUILT_JNI_LIBS_arm := @lib/armeabi-v7a/libwebviewchromium.so
-LOCAL_PREBUILT_JNI_LIBS_arm64 := @lib/arm64-v8a/libwebviewchromium.so
-LOCAL_PREBUILT_JNI_LIBS_x86 := @lib/x86/libwebviewchromium.so
-
 include $(BUILD_PREBUILT)
